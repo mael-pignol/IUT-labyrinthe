@@ -10,7 +10,7 @@ G=$(sed -n 7p ptdr.txt)
 H=$(sed -n 8p ptdr.txt)
 I=$(sed -n 9p ptdr.txt)
 
-CHEMIN='/home/prof/troispartrois/'
+CHEMIN='/lab/'
 
 IP='IP'
 USER='pignol'
