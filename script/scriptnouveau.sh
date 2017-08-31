@@ -12,7 +12,7 @@ I=$(sed -n 9p ptdr.txt)
 
 CHEMIN='/home/prof/troispartrois/'
 
-IP='172.26.69.12'
+IP='IP'
 USER='pignol'
 
 ssh $USER@$IP cat $CHEMIN/$A $CHEMIN/$D $CHEMIN/$G > 1.fodaly
