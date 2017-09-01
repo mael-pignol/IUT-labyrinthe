@@ -30,7 +30,6 @@ int main(int argc, char* argv[]) {
 
   if(exists_solution() == 0 ){
     sleep(1);
-    submit("pignol", "172.26.69.28", 0);
     close_lab();
       return 0;
   }
@@ -65,7 +64,6 @@ int main(int argc, char* argv[]) {
                     {}
   }
   // Wait until enter is pressed
-submit("pignol", "IP", 1);
   getchar();
   close_lab();
   return 0;
