@@ -38,7 +38,7 @@ int main(int argc, char* argv[]) {
 
     if(exists_solution() == 0 ){
       printf("NOSOLUCE");
-      submit("pignol", "172.26.69.28", 0);
+      submit("pignol", "IP", 0);
       getchar();
       close_lab();
         return 0;
