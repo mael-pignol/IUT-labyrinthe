@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
   int arrivalY = 8;
 
   // Load the labyrinth and set the starting and goal positions
-  load_lab("/hometu/etudiants/p/i/E174473U/projet_rentree/lab/lab.fodaly");
+  load_lab("/labyrinthe/lab/lab.fodaly");
   set_start(startX, startY);
   set_arrival(arrivalX, arrivalY);
 
@@ -155,7 +155,7 @@ printf("t= %d \n",t);
 
 
   // Wait until enter is pressed
-  submit("pignol", "172.26.69.28", 1);
+  submit("pignol", "IP", 1);
   getchar();
   close_lab();
   return 0;
