@@ -38,7 +38,6 @@ int main(int argc, char* argv[]) {
 
     if(exists_solution() == 0 ){
       printf("NOSOLUCE");
-      submit("pignol", "IP", 0);
       getchar();
       close_lab();
         return 0;
@@ -141,9 +140,8 @@ printf("t= %d \n",t);
             for ( d = 1 ; d <= 3 ; d++ )
                {}
    }
-   if(h > 200){
      close_lab();
-      printf("PAS DE RESULAT : ON PASSE AU RANDOM");
+
 
    }
 }
@@ -155,7 +153,6 @@ printf("t= %d \n",t);
 
 
   // Wait until enter is pressed
-  submit("pignol", "IP", 1);
   getchar();
   close_lab();
   return 0;
